@@ -2,6 +2,7 @@ package fr.infinity54.cesi.advancedjava.controller;
 
 import fr.infinity54.cesi.advancedjava.model.User;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -28,8 +29,10 @@ public class UserController {
         return users;
     }
 
-    @GetMapping("/user")
-    public User getUser() {
+    @GetMapping("/user/{id}")
+    public User getUser(@PathVariable int id) {
+        System.out.println(id);
+
         User user1 = new User();
         user1.setFirstName("John");
         user1.setLastName("DOE");
