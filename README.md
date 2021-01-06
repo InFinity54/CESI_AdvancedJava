@@ -15,3 +15,4 @@ Le contenu s'obtient à l'aide des différents commits du dépôt.
 * Récupérer une liste d'utilisateurs
 * Récupérer un utilisateur
 * Fonction avec paramètre dans l'URL
+* Utiliser une base de données pour récupérer les utilisateurs
