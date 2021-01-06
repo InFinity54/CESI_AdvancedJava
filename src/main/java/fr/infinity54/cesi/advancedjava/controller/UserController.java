@@ -28,4 +28,13 @@ public class UserController {
         return users;
     }
 
+    @GetMapping("/user")
+    public User getUser() {
+        User user1 = new User();
+        user1.setFirstName("John");
+        user1.setLastName("DOE");
+
+        return user1;
+    }
+
 }

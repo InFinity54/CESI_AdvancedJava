@@ -13,3 +13,4 @@ Projet généré à l'aide de [_Spring Initializr_](https://start.spring.io).
 Le contenu s'obtient à l'aide des différents commits du dépôt.
 * Page d'accueil
 * Récupérer une liste d'utilisateurs
+* Récupérer un utilisateur
